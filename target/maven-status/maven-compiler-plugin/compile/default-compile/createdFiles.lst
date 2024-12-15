@@ -1,0 +1,10 @@
+com\Java\infrastructure\repository\InMemoryProductRepository.class
+com\Java\Application.class
+com\Java\presentation\validation\ValidationErrorResponse.class
+com\Java\infrastructure\config\SwaggerConfig.class
+com\Java\presentation\validation\ProductRequestValidator.class
+com\Java\presentation\controller\ProductController.class
+com\Java\domain\entity\Product.class
+com\Java\application\service\ProductService.class
+com\Java\infrastructure\toggles\FeatureToggleConfig.class
+com\Java\presentation\exception\GlobalExceptionHandler.class

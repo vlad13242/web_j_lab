@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/intergalactic_marketplace
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: prod_password
+  jpa:
+    hibernate:
+      ddl-auto: validate # Проверка схемы в продакшн
