@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: IntergalacticMarketplace
+  profiles:
+    active: dev # Указание активного профиля
+
+server:
+  port: 8080 # Порт, на котором запускается приложение
+
+logging:
+  level:
+    root: INFO
+    com.Java: DEBUG # Логирование вашего пакета
+
+feature:
+  crud-enabled: true # Переключатель CRUD-операций (true - включено, false - отключено)
